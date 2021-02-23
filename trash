@@ -1,0 +1,30 @@
+// if (!action) {
+    //     console.log("Number key");
+    // }
+    // if (action === ("plus" || "minus" || "times" || "divide")) {
+    //     console.log("operator key!");
+    // }
+    // if (action === 'decimal') {
+    //     console.log('Decimal key!')
+    // }
+    // if (action === 'clear') {
+    //     console.log('Clear key!')
+    // }
+    // if (action === 'clear-all') {
+    //     console.log('Clear all key!')
+    // }
+    // if (action === 'calculate') {
+    //     console.log('Equal key!')
+    // }
+    // if (action === 'memory-clear') {
+    //     console.log('Memory-clear!')
+    // }
+    // if (action === 'memory-subtraction') {
+    //     console.log('Memory-subtraction!')
+    // }
+    // if (action === 'memory-addition') {
+    //     console.log('Memory-addition!')
+    // }
+    // if (action === 'memory-recall') {
+    //     console.log('Memory-recall!')
+    // }

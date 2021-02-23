@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="calculator">
+        <h1>Basic Calculator</h1>
+        <div class="display">
+            <p class="last-calc"></p>
+            <h3 id="text">0</h3>
+        </div>
+
+        <div class="calculators-btn">
+            <button class="calc-button is-clear memory" data-action="memory-clear">MC</button>
+            <button class="calc-button is-clear" data-action="memory-recall">MR</button>
+            <button class="calc-button is-clear" data-action="memory-subtraction">M-</button>
+
+            <button class="calc-button" data-action="clear-all">AC</button>
+            <button class="calc-button" data-action="clear">C</button>
+            <button class="calc-button" data-action="percentage">%</button>
+            <button class="calc-button is-clear" data-action="divide">/</button>
+
+            <button class="calc-button">7</button>
+            <button class="calc-button">8</button>
+            <button class="calc-button">9</button>
+            <button class="calc-button is-clear" data-action="times">&times;</button>
+
+            <button class="calc-button">6</button>
+            <button class="calc-button">5</button>
+            <button class="calc-button">6</button>
+            <button class="calc-button is-clear" data-action="minus">&minus;</button>
+
+            <button class="calc-button">1</button>
+            <button class="calc-button">2</button>
+            <button class="calc-button">3</button>
+            <button class="calc-button is-clear" data-action="plus">&plus;</button>
+
+            <button class="calc-button is-zero">0</button>
+            <button class="calc-button" data-action="decimal">.</button>
+            <button class="calc-button is-equal" data-action="calculate">&equals;</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
